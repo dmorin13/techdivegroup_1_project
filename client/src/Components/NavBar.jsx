@@ -43,33 +43,33 @@ const navBar1 = (
     </Navbar>
   );
 
-const navBar3 = (
-    <Navbar bg="light" expand="lg">
-        {/* <Navbar.Brand href="#">Techie Turnup</Navbar.Brand> */}
-          <Nav
-            className="me-auto my-2 my-lg-0"
-            style={{ maxHeight: '100px' }}
-            navbarScroll
-          >
-            <Nav.Link  style={{ paddingRight: '65px', paddingLeft: '65px' }} href="#action1">Patient ID</Nav.Link>
-            <Nav.Link style={{ paddingRight: '65px' }} href="#action2">Exam ID</Nav.Link>
-            <Nav.Link style={{ paddingRight: '65px' }} href="#action1">Image</Nav.Link>
-            <Nav.Link  style={{ paddingRight: '65px' }} href="#action2">Key Findings</Nav.Link>
-            <Nav.Link style={{ paddingRight: '65px' }} href="#action1">Brixia Score</Nav.Link>
-            <Nav.Link style={{ paddingRight: '65px' }} href="#action1">Age</Nav.Link>
-            <Nav.Link style={{ paddingRight: '65px' }} href="#action2">Sex</Nav.Link>
-            <Nav.Link style={{ paddingRight: '65px' }} href="#action2">BMI</Nav.Link>
-            <Nav.Link style={{ paddingRight: '65px' }} href="#action1">Zip Code</Nav.Link>
-          </Nav>
-    </Navbar>
-  );
+// const navBar3 = (
+//     <Navbar bg="light" expand="lg">
+//         {/* <Navbar.Brand href="#">Techie Turnup</Navbar.Brand> */}
+//           <Nav
+//             className="me-auto my-2 my-lg-0"
+//             style={{ maxHeight: '100px' }}
+//             navbarScroll
+//           >
+//             <Nav.Link  style={{ paddingRight: '65px', paddingLeft: '65px' }} href="#action1">Patient ID</Nav.Link>
+//             <Nav.Link style={{ paddingRight: '65px' }} href="#action2">Exam ID</Nav.Link>
+//             <Nav.Link style={{ paddingRight: '65px' }} href="#action1">Image</Nav.Link>
+//             <Nav.Link  style={{ paddingRight: '65px' }} href="#action2">Key Findings</Nav.Link>
+//             <Nav.Link style={{ paddingRight: '65px' }} href="#action1">Brixia Score</Nav.Link>
+//             <Nav.Link style={{ paddingRight: '65px' }} href="#action1">Age</Nav.Link>
+//             <Nav.Link style={{ paddingRight: '65px' }} href="#action2">Sex</Nav.Link>
+//             <Nav.Link style={{ paddingRight: '65px' }} href="#action2">BMI</Nav.Link>
+//             <Nav.Link style={{ paddingRight: '65px' }} href="#action1">Zip Code</Nav.Link>
+//           </Nav>
+//     </Navbar>
+//   );
   
 function NavBar() {
   return (
     <>
         {navBar1}
         {navBar2}
-        {navBar3}
+        {/* {navBar3} */}
     </>
   );
 }

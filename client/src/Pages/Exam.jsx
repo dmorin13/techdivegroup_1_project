@@ -1,11 +1,11 @@
 import Table from "../Components/Table";
 
 
-const Exam = () => {
+const Exam = ({ exams }) => {
 
     return (
         <>
-            <Table />
+            <Table exams={exams}/>
         </>
     )
 }
