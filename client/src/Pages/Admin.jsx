@@ -1,12 +1,9 @@
-import Table from "../Components/Table";
+import AdminTable from "../Components/AdminTable";
 
-
-const Admin = () => {
+const Admin = ({ exams }) => {
 
     return (
-        <>
-            <Table />
-        </>
+            <AdminTable exams={exams}/>
     )
 }
 

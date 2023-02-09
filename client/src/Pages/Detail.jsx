@@ -1,8 +1,11 @@
+//import { useParams } from "react-router";
 import Info from "../Components/patientInfo";
 
-const Detail = () => {
+const Detail = ({ exams }) => {
+    
+    
     return (
-        <Info />
+        <Info exams={exams}/>
     )
 }
 

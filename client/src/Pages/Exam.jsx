@@ -1,12 +1,10 @@
-import Table from "../Components/Table";
+import ExamTable from "../Components/ExamTable"
 
 
 const Exam = ({ exams }) => {
 
     return (
-        <>
-            <Table exams={exams}/>
-        </>
+            <ExamTable exams={exams}/>
     )
 }
 
