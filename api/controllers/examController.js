@@ -67,7 +67,7 @@ const updateExam = async (req, res) => {
 };
 
 module.exports = {
-  getExam, 
+  getExam,  
   getExams,
   postExam,
   deleteExam,
